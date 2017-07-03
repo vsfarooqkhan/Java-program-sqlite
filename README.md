@@ -11,7 +11,7 @@ Please follow the instructions given below::
 
 4.	Goto Project tab -> Properties -> Click on Java Build path -> Libraries -> Add External jARs -> Select the downloaded sqlite jar file.
 
-5.	Create database folder : C:\Sqlite\db
+5.	Create database folder : C:\Sqlite\db 
 
 6.	Create a table in sqlite using command 
 	(or)
