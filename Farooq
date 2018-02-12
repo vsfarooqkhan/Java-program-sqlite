@@ -7,7 +7,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.sql.*;
 
-
+//adding frames
 public class Farooq extends Frame implements ActionListener 
 {
 	Button b;
@@ -24,7 +24,7 @@ public class Farooq extends Frame implements ActionListener
 	Label l6;
 	Farooq()
 {
-
+//setting the frame variables and size
 	ta1=new TextArea();
 	ta1.setBounds(40,220,150,150);
 	ta1.setEditable(false);
@@ -70,7 +70,7 @@ public class Farooq extends Frame implements ActionListener
 	setSize(400,400);
 	setLayout(null);
 	setVisible(true);
-
+// windows closing event
 addWindowListener(new WindowAdapter(){  
     public void windowClosing(WindowEvent e) {  
         dispose();  
